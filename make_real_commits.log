@@ -1,0 +1,412 @@
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /tmp/fake_repo/.git/
+[master (root-commit) b82c484] docs: Initial project documentation
+ 1 file changed, 198 insertions(+)
+ create mode 100644 README.md
+[master cbc4a99] docs: Initial project documentation
+ 1 file changed, 61 insertions(+)
+ create mode 100644 frontend/README.md
+[master f41a9cc] Add .gitignore
+ 1 file changed, 15 insertions(+)
+ create mode 100644 .gitignore
+[master de22048] Add .gitignore
+ 1 file changed, 6 insertions(+)
+ create mode 100644 frontend/.gitignore
+[master ab2357f] Add Makefile
+ 1 file changed, 31 insertions(+)
+ create mode 100644 Makefile
+[master 836d13f] chore: Setup frontend dependencies
+ 1 file changed, 40 insertions(+)
+ create mode 100644 frontend/package.json
+[master ffc8d8d] chore: Setup python backend dependencies
+ 1 file changed, 57 insertions(+)
+ create mode 100644 pyproject.toml
+[master a233c98] Add alembic.ini
+ 1 file changed, 39 insertions(+)
+ create mode 100644 alembic.ini
+[master 7de32de] Add compose.yaml
+ 1 file changed, 39 insertions(+)
+ create mode 100644 compose.yaml
+[master 5f32e33] Add architecture.md
+ 1 file changed, 46 insertions(+)
+ create mode 100644 docs/architecture.md
+[master cd24abb] Add extraction-contract.md
+ 1 file changed, 21 insertions(+)
+ create mode 100644 docs/extraction-contract.md
+[master 6667057] Add env.py
+ 1 file changed, 50 insertions(+)
+ create mode 100644 migrations/env.py
+[master 8f02fee] Add script.py.mako
+ 1 file changed, 25 insertions(+)
+ create mode 100644 migrations/script.py.mako
+[master d600433] Add 20260704_0001_initial_dri_schema.py
+ 1 file changed, 232 insertions(+)
+ create mode 100644 migrations/versions/20260704_0001_initial_dri_schema.py
+[master 1928035] Add __init__.py
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/core/__init__.py
+[master a1e6508] Add config.py
+ 1 file changed, 51 insertions(+)
+ create mode 100644 src/iri/core/config.py
+[master 708f962] Add logging.py
+ 1 file changed, 12 insertions(+)
+ create mode 100644 src/iri/core/logging.py
+[master 314705c] Add __init__.py
+ 1 file changed, 20 insertions(+)
+ create mode 100644 src/iri/db/__init__.py
+[master df13dae] Add models.py
+ 1 file changed, 396 insertions(+)
+ create mode 100644 src/iri/db/models.py
+[master ac4ba18] Add session.py
+ 1 file changed, 38 insertions(+)
+ create mode 100644 src/iri/db/session.py
+[master 6bb663a] Add __init__.py
+ 1 file changed, 3 insertions(+)
+ create mode 100644 src/iri/__init__.py
+[master 54d4230] feat(api): Add __init__.py endpoint
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/api/__init__.py
+[master aedb21f] feat(api): Add dependencies.py endpoint
+ 1 file changed, 43 insertions(+)
+ create mode 100644 src/iri/api/dependencies.py
+[master 6f4bae5] feat(api): Add __init__.py endpoint
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/api/routes/__init__.py
+[master 97fc503] feat(api): Add graph.py endpoint
+ 1 file changed, 15 insertions(+)
+ create mode 100644 src/iri/api/routes/graph.py
+[master bff7fb4] feat(api): Add health.py endpoint
+ 1 file changed, 39 insertions(+)
+ create mode 100644 src/iri/api/routes/health.py
+[master 875b282] feat(api): Add ingestions.py endpoint
+ 1 file changed, 114 insertions(+)
+ create mode 100644 src/iri/api/routes/ingestions.py
+[master 4b0571f] feat(api): Add retrieval.py endpoint
+ 1 file changed, 41 insertions(+)
+ create mode 100644 src/iri/api/routes/retrieval.py
+[master 09e0555] feat(api): Add schemas.py endpoint
+ 1 file changed, 147 insertions(+)
+ create mode 100644 src/iri/api/schemas.py
+[master 8bf1ea3] Add constants.py
+ 1 file changed, 5 insertions(+)
+ create mode 100644 src/iri/constants.py
+[master b6e5665] Add __init__.py
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/domain/__init__.py
+[master a0e0ec3] Add extraction.py
+ 1 file changed, 116 insertions(+)
+ create mode 100644 src/iri/domain/extraction.py
+[master dacd976] Add __init__.py
+ 1 file changed, 5 insertions(+)
+ create mode 100644 src/iri/embeddings/__init__.py
+[master 99a2b6b] Add base.py
+ 1 file changed, 19 insertions(+)
+ create mode 100644 src/iri/embeddings/base.py
+[master 0d7ae99] Add gemini.py
+ 1 file changed, 80 insertions(+)
+ create mode 100644 src/iri/embeddings/gemini.py
+[master de4e921] Add __init__.py
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/extraction/__init__.py
+[master c81b1de] Add files.py
+ 1 file changed, 66 insertions(+)
+ create mode 100644 src/iri/extraction/files.py
+[master be00580] Add gemini.py
+ 1 file changed, 119 insertions(+)
+ create mode 100644 src/iri/extraction/gemini.py
+[master bfd2160] Add __init__.py
+ 1 file changed, 17 insertions(+)
+ create mode 100644 src/iri/generation/__init__.py
+[master 278e25b] Add base.py
+ 1 file changed, 29 insertions(+)
+ create mode 100644 src/iri/generation/base.py
+[master 230f4a1] Add gemini.py
+ 1 file changed, 128 insertions(+)
+ create mode 100644 src/iri/generation/gemini.py
+[master 9d001ff] Add __init__.py
+ 1 file changed, 5 insertions(+)
+ create mode 100644 src/iri/graph/__init__.py
+[master 44ffa33] Add gateway.py
+ 1 file changed, 153 insertions(+)
+ create mode 100644 src/iri/graph/gateway.py
+[master 880d10a] Add models.py
+ 1 file changed, 79 insertions(+)
+ create mode 100644 src/iri/graph/models.py
+[master 1a208cc] Add main.py
+ 1 file changed, 56 insertions(+)
+ create mode 100644 src/iri/main.py
+[master fbf6cf1] Add py.typed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/py.typed
+[master 0eac7ac] Add __init__.py
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/repositories/__init__.py
+[master b232049] Add postgres.py
+ 1 file changed, 145 insertions(+)
+ create mode 100644 src/iri/repositories/postgres.py
+[master 9b9976e] Add __init__.py
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/iri/services/__init__.py
+[master 2ec9dca] Add graph_snapshot.py
+ 1 file changed, 123 insertions(+)
+ create mode 100644 src/iri/services/graph_snapshot.py
+[master 35a50ea] Add ingestion.py
+ 1 file changed, 82 insertions(+)
+ create mode 100644 src/iri/services/ingestion.py
+[master ef0261a] Add ingestion_processor.py
+ 1 file changed, 317 insertions(+)
+ create mode 100644 src/iri/services/ingestion_processor.py
+[master ac2d35f] Add retrieval.py
+ 1 file changed, 277 insertions(+)
+ create mode 100644 src/iri/services/retrieval.py
+[master fd84ef8] Add route.ts
+ 1 file changed, 43 insertions(+)
+ create mode 100644 frontend/app/api/dri/[...path]/route.ts
+[master 0fc52eb] Add globals.css
+ 1 file changed, 200 insertions(+)
+ create mode 100644 frontend/app/globals.css
+[master 0a70fe2] Add layout.tsx
+ 1 file changed, 16 insertions(+)
+ create mode 100644 frontend/app/layout.tsx
+[master f0c08f9] Add page.tsx
+ 1 file changed, 6 insertions(+)
+ create mode 100644 frontend/app/page.tsx
+[master 815b9b7] feat(ui): Implement chat-panel component
+ 1 file changed, 425 insertions(+)
+ create mode 100644 frontend/components/chat-panel.tsx
+[master 675cc1d] feat(ui): Implement graph-canvas component
+ 1 file changed, 433 insertions(+)
+ create mode 100644 frontend/components/graph-canvas.tsx
+[master 6f1dc45] feat(ui): Implement ingestion-console component
+ 1 file changed, 141 insertions(+)
+ create mode 100644 frontend/components/ingestion-console.tsx
+[master 42e0cf6] feat(ui): Implement node-inspector component
+ 1 file changed, 45 insertions(+)
+ create mode 100644 frontend/components/node-inspector.tsx
+[master ee2e3ef] feat(ui): Implement workbench component
+ 1 file changed, 203 insertions(+)
+ create mode 100644 frontend/components/workbench.tsx
+[master d01ea05] test: Add test coverage for live-test-financial-policy.txt
+ 1 file changed, 5 insertions(+)
+ create mode 100644 tests/fixtures/live-test-financial-policy.txt
+[master 7f3ef9d] test: Add test coverage for live-test-policy.txt
+ 1 file changed, 7 insertions(+)
+ create mode 100644 tests/fixtures/live-test-policy.txt
+[master 6f400b2] test: Add test coverage for test_answer_generation.py
+ 1 file changed, 121 insertions(+)
+ create mode 100644 tests/test_answer_generation.py
+[master 4cf30db] test: Add test coverage for test_api.py
+ 1 file changed, 17 insertions(+)
+ create mode 100644 tests/test_api.py
+[master cb6b4e7] test: Add test coverage for test_embeddings.py
+ 1 file changed, 64 insertions(+)
+ create mode 100644 tests/test_embeddings.py
+[master 152680b] test: Add test coverage for test_extraction_contract.py
+ 1 file changed, 46 insertions(+)
+ create mode 100644 tests/test_extraction_contract.py
+[master 2eb37e9] test: Add test coverage for test_ingestion_extraction.py
+ 1 file changed, 26 insertions(+)
+ create mode 100644 tests/test_ingestion_extraction.py
+[master 00bd5ad] test: Add test coverage for test_models.py
+ 1 file changed, 56 insertions(+)
+ create mode 100644 tests/test_models.py
+[master e9d0430] Add .env.example
+ 1 file changed, 11 insertions(+)
+ create mode 100644 .env.example
+[master 1e7abd8] Add .env.local.example
+ 1 file changed, 6 insertions(+)
+ create mode 100644 frontend/.env.local.example
+[master 555728d] Add eslint.config.mjs
+ 1 file changed, 10 insertions(+)
+ create mode 100644 frontend/eslint.config.mjs
+[master 6e053d9] Add use-telemetry-socket.ts
+ 1 file changed, 53 insertions(+)
+ create mode 100644 frontend/hooks/use-telemetry-socket.ts
+[master e2f4c74] Add api.ts
+ 1 file changed, 68 insertions(+)
+ create mode 100644 frontend/lib/api.ts
+[master 4d674e6] Add graph.test.ts
+ 1 file changed, 60 insertions(+)
+ create mode 100644 frontend/lib/graph.test.ts
+[master d9c538e] Add graph.ts
+ 1 file changed, 216 insertions(+)
+ create mode 100644 frontend/lib/graph.ts
+[master 4ea01ae] Add ndjson.test.ts
+ 1 file changed, 22 insertions(+)
+ create mode 100644 frontend/lib/ndjson.test.ts
+[master f48e332] Add ndjson.ts
+ 1 file changed, 27 insertions(+)
+ create mode 100644 frontend/lib/ndjson.ts
+[master fb2cad0] Add types.ts
+ 1 file changed, 157 insertions(+)
+ create mode 100644 frontend/lib/types.ts
+[master cff8940] Add next-env.d.ts
+ 1 file changed, 6 insertions(+)
+ create mode 100644 frontend/next-env.d.ts
+[master 11e0d2d] Add next.config.ts
+ 1 file changed, 8 insertions(+)
+ create mode 100644 frontend/next.config.ts
+[master 0b889c9] Add package-lock.json
+ 1 file changed, 9056 insertions(+)
+ create mode 100644 frontend/package-lock.json
+[master 40023b9] Add postcss.config.mjs
+ 1 file changed, 7 insertions(+)
+ create mode 100644 frontend/postcss.config.mjs
+[master 02bfdbf] Add workbench.test.ts
+ 1 file changed, 52 insertions(+)
+ create mode 100644 frontend/store/workbench.test.ts
+[master e74023c] Add workbench.ts
+ 1 file changed, 234 insertions(+)
+ create mode 100644 frontend/store/workbench.ts
+[master a546140] Add tsconfig.json
+ 1 file changed, 41 insertions(+)
+ create mode 100644 frontend/tsconfig.json
+[master 1d6c00b] Add vitest.config.ts
+ 1 file changed, 13 insertions(+)
+ create mode 100644 frontend/vitest.config.ts
+[master 8eab78f] Add vitest.setup.ts
+ 1 file changed, 2 insertions(+)
+ create mode 100644 frontend/vitest.setup.ts
+[master bef2a63] Add image 1.png
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 image 1.png
+[master 7310f4f] Add image 2.png
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 image 2.png
+[master cb4df37] Add image 3.png
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 image 3.png
+[master 0129dff] Add outline.png
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 outline.png
+[master 2bd8777] docs: update project description
+ 1 file changed, 2 insertions(+)
+[master a055696] style: fix linting issues
+ 1 file changed, 2 insertions(+)
+[master ca9e3a1] refactor: improve code readability
+ 1 file changed, 2 insertions(+)
+[master a6a8eaa] docs: add setup instructions
+ 1 file changed, 2 insertions(+)
+[master c505d04] chore: update dependencies
+ 1 file changed, 2 insertions(+)
+[master 8f0e3be] fix: resolve minor typo in README
+ 1 file changed, 2 insertions(+)
+[master aa8f974] docs: update project description
+ 1 file changed, 2 insertions(+)
+To https://github.com/arnavworks/Information-Relation-Indexing.git
+ + 4e29d06...aa8f974 master -> master (forced update)
+Commit 1: docs: Initial project documentation
+Commit 2: docs: Initial project documentation
+Commit 3: Add .gitignore
+Commit 4: Add .gitignore
+Commit 5: Add Makefile
+Commit 6: chore: Setup frontend dependencies
+Commit 7: chore: Setup python backend dependencies
+Commit 8: Add alembic.ini
+Commit 9: Add compose.yaml
+Commit 10: Add architecture.md
+Commit 11: Add extraction-contract.md
+Commit 12: Add env.py
+Commit 13: Add script.py.mako
+Commit 14: Add 20260704_0001_initial_dri_schema.py
+Commit 15: Add __init__.py
+Commit 16: Add config.py
+Commit 17: Add logging.py
+Commit 18: Add __init__.py
+Commit 19: Add models.py
+Commit 20: Add session.py
+Commit 21: Add __init__.py
+Commit 22: feat(api): Add __init__.py endpoint
+Commit 23: feat(api): Add dependencies.py endpoint
+Commit 24: feat(api): Add __init__.py endpoint
+Commit 25: feat(api): Add graph.py endpoint
+Commit 26: feat(api): Add health.py endpoint
+Commit 27: feat(api): Add ingestions.py endpoint
+Commit 28: feat(api): Add retrieval.py endpoint
+Commit 29: feat(api): Add schemas.py endpoint
+Commit 30: Add constants.py
+Commit 31: Add __init__.py
+Commit 32: Add extraction.py
+Commit 33: Add __init__.py
+Commit 34: Add base.py
+Commit 35: Add gemini.py
+Commit 36: Add __init__.py
+Commit 37: Add files.py
+Commit 38: Add gemini.py
+Commit 39: Add __init__.py
+Commit 40: Add base.py
+Commit 41: Add gemini.py
+Commit 42: Add __init__.py
+Commit 43: Add gateway.py
+Commit 44: Add models.py
+Commit 45: Add main.py
+Commit 46: Add py.typed
+Commit 47: Add __init__.py
+Commit 48: Add postgres.py
+Commit 49: Add __init__.py
+Commit 50: Add graph_snapshot.py
+Commit 51: Add ingestion.py
+Commit 52: Add ingestion_processor.py
+Commit 53: Add retrieval.py
+Commit 54: Add route.ts
+Commit 55: Add globals.css
+Commit 56: Add layout.tsx
+Commit 57: Add page.tsx
+Commit 58: feat(ui): Implement chat-panel component
+Commit 59: feat(ui): Implement graph-canvas component
+Commit 60: feat(ui): Implement ingestion-console component
+Commit 61: feat(ui): Implement node-inspector component
+Commit 62: feat(ui): Implement workbench component
+Commit 63: test: Add test coverage for live-test-financial-policy.txt
+Commit 64: test: Add test coverage for live-test-policy.txt
+Commit 65: test: Add test coverage for test_answer_generation.py
+Commit 66: test: Add test coverage for test_api.py
+Commit 67: test: Add test coverage for test_embeddings.py
+Commit 68: test: Add test coverage for test_extraction_contract.py
+Commit 69: test: Add test coverage for test_ingestion_extraction.py
+Commit 70: test: Add test coverage for test_models.py
+Commit 71: Add .env.example
+Commit 72: Add .env.local.example
+Commit 73: Add eslint.config.mjs
+Commit 74: Add use-telemetry-socket.ts
+Commit 75: Add api.ts
+Commit 76: Add graph.test.ts
+Commit 77: Add graph.ts
+Commit 78: Add ndjson.test.ts
+Commit 79: Add ndjson.ts
+Commit 80: Add types.ts
+Commit 81: Add next-env.d.ts
+Commit 82: Add next.config.ts
+Commit 83: Add package-lock.json
+Commit 84: Add postcss.config.mjs
+Commit 85: Add workbench.test.ts
+Commit 86: Add workbench.ts
+Commit 87: Add tsconfig.json
+Commit 88: Add vitest.config.ts
+Commit 89: Add vitest.setup.ts
+Commit 90: Add image 1.png
+Commit 91: Add image 2.png
+Commit 92: Add image 3.png
+Commit 93: Add outline.png
+Commit 94: docs: update project description
+Commit 95: style: fix linting issues
+Commit 96: refactor: improve code readability
+Commit 97: docs: add setup instructions
+Commit 98: chore: update dependencies
+Commit 99: fix: resolve minor typo in README
+Commit 100: docs: update project description
+Done generating 100 realistic commits.
+Force pushing to github...
+Finished.

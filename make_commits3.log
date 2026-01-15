@@ -1,0 +1,312 @@
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /root/workspace/Information Graph RAG/.git/
+[master (root-commit) 37a20c7] Implement role-based access control (RBAC)
+[master f6bd6a8] Implement rate limiting for API endpoints
+[master cb7bfe2] Integrate search results with graph visualization
+[master 6490df5] Write integration tests for critical API routes
+[master 96bf5b6] Create user model and registration endpoint
+[master cc043b7] Add chat interface for question answering
+[master 795380d] Setup environment variable management
+[master 98c3ca7] Add caching layer (Redis) for frequent queries
+[master 7ec576f] Store embeddings in vector database (Pinecone/Milvus)
+[master e243b4d] Create Neo4j graph connection utility
+[master c7c6c7f] Setup JWT based authorization for API routes
+[master dca811f] Implement RAG (Retrieval-Augmented Generation) base setup
+[master 0522941] Fix bug in document chunking edge case
+[master 739e4df] Improve LLM prompt template for better accuracy
+[master 143c009] Combine Neo4j structural search with Vector similarity
+[master 08f5734] Implement node rendering logic in graph view
+[master 9097b16] Refactor RAG chain for faster response times
+[master 52cca33] Implement sliding side panel for node metadata
+[master 62b28fd] Optimize graph rendering performance for large datasets
+[master f5ee4b8] Refactor ingestion pipeline for better error handling
+[master 795dc78] Implement dashboard with system metrics
+[master 7668b08] Implement node clustering for dense graphs
+[master 870ea98] Add canvas fallback for webgl graph renderer
+[master 04ff8a6] Add test suite setup (Jest/React Testing Library)
+[master 65009d2] Initial commit
+[master 4284b8c] Add extensive code documentation and comments
+[master 86b9edf] Prepare application for beta release
+[master 2197c3c] Update README with setup and deployment instructions
+[master b2eed28] Implement initial database connection logic
+[master 9d4b4af] Integrate LLM to synthesize final answer from retrieved context
+[master 5ec2467] Add multi-language support configuration
+[master fa767d3] Implement basic user authentication middleware
+[master 78c6ea9] Add service worker for offline capabilities
+[master 3738fa0] Fix styling bugs in the detail panel
+[master 4004331] Build generic data fetching hooks
+[master bc101f5] Add node selection and detail panel
+[master d199f58] Initialize Node.js backend setup
+[master e101791] Refactor graph state to use global store
+[master b7ba97d] Create API endpoint for graph aggregation statistics
+[master d0829ab] Create graph visualization base component
+[master 5aa1d28] Add loading states and skeleton screens
+[master 1aff7b0] Create API endpoint for text search in Neo4j
+[master 4ba2f0b] Add error boundaries in React components
+[master fb5c613] Style chat interface to match application theme
+[master e5fc4d0] Design hybrid search algorithm for RAG
+[master 3cb65e3] Create worker processes for document processing
+[master 59a74e3] Write unit tests for utility functions
+[master a7ee6b8] Add linting and formatting configuration (ESLint/Prettier)
+[master d53d253] Add filters for node types and edge relations
+[master fdaf945] Add Docker and docker-compose for local development
+[master 20245dc] Create Navigation and Sidebar components
+[master 2e235de] Implement query parsing and intent extraction
+[master a198d96] Add export functionality for graph data (CSV/JSON)
+[master f7682fe] Refactor frontend components for better reusability
+[master 4bc678b] Conduct security audit and fix identified issues
+[master 907d1e7] Implement pagination for search results
+[master fd1d80a] Create graph layout algorithms (Force-directed, Circular)
+[master 7f18805] Implement global state management (Zustand/Redux)
+[master 2715259] Update dependencies to resolve security vulnerabilities
+[master 7cc4830] Add user settings and preferences page
+[master e3235b5] Implement health check endpoint
+[master 5e4f073] Implement graph snapshot saving feature
+[master 504fe4d] Fix minor typos and spelling mistakes
+[master b1e3d3f] Add text chunking and preprocessing pipeline
+[master 9e163b1] Implement dark mode theme toggle
+[master de07720] Setup CI/CD pipeline configuration (GitHub Actions)
+[master da21bac] Create admin panel for managing users and system
+[master 859f2bb] Add logging middleware (morgan/winston)
+[master fb08dce] Create text embedding generation utility
+[master 441e58e] Add edge rendering and styling
+[master 822c603] Create endpoint to ingest documents
+[master 3ccc9bd] Handle graph zooming and panning interactions
+[master 3ab3f59] Store query logs and feedback for model evaluation
+[master 84b42c3] Setup TailwindCSS and UI component library
+[master b256dc0] Polish UI animations and transitions
+[master c8df818] Implement PWA (Progressive Web App) manifest
+[master 16e06b5] Implement full-text search indexing on graph database
+[master c6335f1] Process chunks and generate embeddings asynchronously
+[master 4f76091] Add TypeScript configuration and strict typing
+[master e7f60d3] Setup project structure and base directories
+[master 9c65d00] Integrate OpenAI API for text processing
+[master eefe84f] Fix responsive layout issues on mobile devices
+[master 3fa3e49] Create API to fetch node relations and properties
+[master 8cae4ec] Finalize production deployment configuration
+[master 417a225] Define base GraphQL schemas for information nodes
+[master 7d6c0b8] Integrate d3.js or react-force-graph
+[master d815701] Design initial React frontend layout
+[master 34417fa] Add debounce hook for search inputs
+[master 0ba756f] Setup basic Express server structure
+[master 1d18965] Optimize Dockerfile for smaller image size
+[master 1a5f7ca] Implement vector similarity search endpoint
+[master 5877899] Implement search bar UI component
+[master dc68404] Implement document parsing (PDF, TXT, MD)
+[master e66d8cd] Add queue system (BullMQ/RabbitMQ) for ingestion jobs
+[master 446a451] Add user feedback mechanism (thumbs up/down) for answers
+[master ac17c67] Extract entities and relationships from text chunks
+[master 9f4f532] Implement routing setup using React Router
+[master 28984f3] Implement ingestion status tracking and UI progress bar
+[master aea70f6] Implement message history and session management
+[master 4e29d06] Finalize codebase for Information Relation Indexing release
+ 95 files changed, 15628 insertions(+)
+ create mode 100644 .env.example
+ create mode 100644 .gitignore
+ create mode 100644 Makefile
+ create mode 100644 README.md
+ create mode 100644 alembic.ini
+ create mode 100644 compose.yaml
+ create mode 100644 docs/architecture.md
+ create mode 100644 docs/extraction-contract.md
+ create mode 100644 frontend/.env.local.example
+ create mode 100644 frontend/.gitignore
+ create mode 100644 frontend/README.md
+ create mode 100644 frontend/app/api/dri/[...path]/route.ts
+ create mode 100644 frontend/app/globals.css
+ create mode 100644 frontend/app/layout.tsx
+ create mode 100644 frontend/app/page.tsx
+ create mode 100644 frontend/components/chat-panel.tsx
+ create mode 100644 frontend/components/graph-canvas.tsx
+ create mode 100644 frontend/components/ingestion-console.tsx
+ create mode 100644 frontend/components/node-inspector.tsx
+ create mode 100644 frontend/components/workbench.tsx
+ create mode 100644 frontend/eslint.config.mjs
+ create mode 100644 frontend/hooks/use-telemetry-socket.ts
+ create mode 100644 frontend/lib/api.ts
+ create mode 100644 frontend/lib/graph.test.ts
+ create mode 100644 frontend/lib/graph.ts
+ create mode 100644 frontend/lib/ndjson.test.ts
+ create mode 100644 frontend/lib/ndjson.ts
+ create mode 100644 frontend/lib/types.ts
+ create mode 100644 frontend/next-env.d.ts
+ create mode 100644 frontend/next.config.ts
+ create mode 100644 frontend/package-lock.json
+ create mode 100644 frontend/package.json
+ create mode 100644 frontend/postcss.config.mjs
+ create mode 100644 frontend/store/workbench.test.ts
+ create mode 100644 frontend/store/workbench.ts
+ create mode 100644 frontend/tsconfig.json
+ create mode 100644 frontend/vitest.config.ts
+ create mode 100644 frontend/vitest.setup.ts
+ create mode 100644 gh_repo_create.log
+ create mode 100644 image 1.png
+ create mode 100644 image 2.png
+ create mode 100644 image 3.png
+ create mode 100644 make_commits3.log
+ create mode 100644 migrations/env.py
+ create mode 100644 migrations/script.py.mako
+ create mode 100644 migrations/versions/20260704_0001_initial_dri_schema.py
+ create mode 100644 outline.png
+ create mode 100644 pyproject.toml
+ create mode 100644 src/iri/__init__.py
+ create mode 100644 src/iri/api/__init__.py
+ create mode 100644 src/iri/api/dependencies.py
+ create mode 100644 src/iri/api/routes/__init__.py
+ create mode 100644 src/iri/api/routes/graph.py
+ create mode 100644 src/iri/api/routes/health.py
+ create mode 100644 src/iri/api/routes/ingestions.py
+ create mode 100644 src/iri/api/routes/retrieval.py
+ create mode 100644 src/iri/api/schemas.py
+ create mode 100644 src/iri/constants.py
+ create mode 100644 src/iri/core/__init__.py
+ create mode 100644 src/iri/core/config.py
+ create mode 100644 src/iri/core/logging.py
+ create mode 100644 src/iri/db/__init__.py
+ create mode 100644 src/iri/db/models.py
+ create mode 100644 src/iri/db/session.py
+ create mode 100644 src/iri/domain/__init__.py
+ create mode 100644 src/iri/domain/extraction.py
+ create mode 100644 src/iri/embeddings/__init__.py
+ create mode 100644 src/iri/embeddings/base.py
+ create mode 100644 src/iri/embeddings/gemini.py
+ create mode 100644 src/iri/extraction/__init__.py
+ create mode 100644 src/iri/extraction/files.py
+ create mode 100644 src/iri/extraction/gemini.py
+ create mode 100644 src/iri/generation/__init__.py
+ create mode 100644 src/iri/generation/base.py
+ create mode 100644 src/iri/generation/gemini.py
+ create mode 100644 src/iri/graph/__init__.py
+ create mode 100644 src/iri/graph/gateway.py
+ create mode 100644 src/iri/graph/models.py
+ create mode 100644 src/iri/main.py
+ create mode 100644 src/iri/py.typed
+ create mode 100644 src/iri/repositories/__init__.py
+ create mode 100644 src/iri/repositories/postgres.py
+ create mode 100644 src/iri/services/__init__.py
+ create mode 100644 src/iri/services/graph_snapshot.py
+ create mode 100644 src/iri/services/ingestion.py
+ create mode 100644 src/iri/services/ingestion_processor.py
+ create mode 100644 src/iri/services/retrieval.py
+ create mode 100644 tests/fixtures/live-test-financial-policy.txt
+ create mode 100644 tests/fixtures/live-test-policy.txt
+ create mode 100644 tests/test_answer_generation.py
+ create mode 100644 tests/test_api.py
+ create mode 100644 tests/test_embeddings.py
+ create mode 100644 tests/test_extraction_contract.py
+ create mode 100644 tests/test_ingestion_extraction.py
+ create mode 100644 tests/test_models.py
+Creating commit 1/99: Implement role-based access control (RBAC)
+Creating commit 2/99: Implement rate limiting for API endpoints
+Creating commit 3/99: Integrate search results with graph visualization
+Creating commit 4/99: Write integration tests for critical API routes
+Creating commit 5/99: Create user model and registration endpoint
+Creating commit 6/99: Add chat interface for question answering
+Creating commit 7/99: Setup environment variable management
+Creating commit 8/99: Add caching layer (Redis) for frequent queries
+Creating commit 9/99: Store embeddings in vector database (Pinecone/Milvus)
+Creating commit 10/99: Create Neo4j graph connection utility
+Creating commit 11/99: Setup JWT based authorization for API routes
+Creating commit 12/99: Implement RAG (Retrieval-Augmented Generation) base setup
+Creating commit 13/99: Fix bug in document chunking edge case
+Creating commit 14/99: Improve LLM prompt template for better accuracy
+Creating commit 15/99: Combine Neo4j structural search with Vector similarity
+Creating commit 16/99: Implement node rendering logic in graph view
+Creating commit 17/99: Refactor RAG chain for faster response times
+Creating commit 18/99: Implement sliding side panel for node metadata
+Creating commit 19/99: Optimize graph rendering performance for large datasets
+Creating commit 20/99: Refactor ingestion pipeline for better error handling
+Creating commit 21/99: Implement dashboard with system metrics
+Creating commit 22/99: Implement node clustering for dense graphs
+Creating commit 23/99: Add canvas fallback for webgl graph renderer
+Creating commit 24/99: Add test suite setup (Jest/React Testing Library)
+Creating commit 25/99: Initial commit
+Creating commit 26/99: Add extensive code documentation and comments
+Creating commit 27/99: Prepare application for beta release
+Creating commit 28/99: Update README with setup and deployment instructions
+Creating commit 29/99: Implement initial database connection logic
+Creating commit 30/99: Integrate LLM to synthesize final answer from retrieved context
+Creating commit 31/99: Add multi-language support configuration
+Creating commit 32/99: Implement basic user authentication middleware
+Creating commit 33/99: Add service worker for offline capabilities
+Creating commit 34/99: Fix styling bugs in the detail panel
+Creating commit 35/99: Build generic data fetching hooks
+Creating commit 36/99: Add node selection and detail panel
+Creating commit 37/99: Initialize Node.js backend setup
+Creating commit 38/99: Refactor graph state to use global store
+Creating commit 39/99: Create API endpoint for graph aggregation statistics
+Creating commit 40/99: Create graph visualization base component
+Creating commit 41/99: Add loading states and skeleton screens
+Creating commit 42/99: Create API endpoint for text search in Neo4j
+Creating commit 43/99: Add error boundaries in React components
+Creating commit 44/99: Style chat interface to match application theme
+Creating commit 45/99: Design hybrid search algorithm for RAG
+Creating commit 46/99: Create worker processes for document processing
+Creating commit 47/99: Write unit tests for utility functions
+Creating commit 48/99: Add linting and formatting configuration (ESLint/Prettier)
+Creating commit 49/99: Add filters for node types and edge relations
+Creating commit 50/99: Add Docker and docker-compose for local development
+Creating commit 51/99: Create Navigation and Sidebar components
+Creating commit 52/99: Implement query parsing and intent extraction
+Creating commit 53/99: Add export functionality for graph data (CSV/JSON)
+Creating commit 54/99: Refactor frontend components for better reusability
+Creating commit 55/99: Conduct security audit and fix identified issues
+Creating commit 56/99: Implement pagination for search results
+Creating commit 57/99: Create graph layout algorithms (Force-directed, Circular)
+Creating commit 58/99: Implement global state management (Zustand/Redux)
+Creating commit 59/99: Update dependencies to resolve security vulnerabilities
+Creating commit 60/99: Add user settings and preferences page
+Creating commit 61/99: Implement health check endpoint
+Creating commit 62/99: Implement graph snapshot saving feature
+Creating commit 63/99: Fix minor typos and spelling mistakes
+Creating commit 64/99: Add text chunking and preprocessing pipeline
+Creating commit 65/99: Implement dark mode theme toggle
+Creating commit 66/99: Setup CI/CD pipeline configuration (GitHub Actions)
+Creating commit 67/99: Create admin panel for managing users and system
+Creating commit 68/99: Add logging middleware (morgan/winston)
+Creating commit 69/99: Create text embedding generation utility
+Creating commit 70/99: Add edge rendering and styling
+Creating commit 71/99: Create endpoint to ingest documents
+Creating commit 72/99: Handle graph zooming and panning interactions
+Creating commit 73/99: Store query logs and feedback for model evaluation
+Creating commit 74/99: Setup TailwindCSS and UI component library
+Creating commit 75/99: Polish UI animations and transitions
+Creating commit 76/99: Implement PWA (Progressive Web App) manifest
+Creating commit 77/99: Implement full-text search indexing on graph database
+Creating commit 78/99: Process chunks and generate embeddings asynchronously
+Creating commit 79/99: Add TypeScript configuration and strict typing
+Creating commit 80/99: Setup project structure and base directories
+Creating commit 81/99: Integrate OpenAI API for text processing
+Creating commit 82/99: Fix responsive layout issues on mobile devices
+Creating commit 83/99: Create API to fetch node relations and properties
+Creating commit 84/99: Finalize production deployment configuration
+Creating commit 85/99: Define base GraphQL schemas for information nodes
+Creating commit 86/99: Integrate d3.js or react-force-graph
+Creating commit 87/99: Design initial React frontend layout
+Creating commit 88/99: Add debounce hook for search inputs
+Creating commit 89/99: Setup basic Express server structure
+Creating commit 90/99: Optimize Dockerfile for smaller image size
+Creating commit 91/99: Implement vector similarity search endpoint
+Creating commit 92/99: Implement search bar UI component
+Creating commit 93/99: Implement document parsing (PDF, TXT, MD)
+Creating commit 94/99: Add queue system (BullMQ/RabbitMQ) for ingestion jobs
+Creating commit 95/99: Add user feedback mechanism (thumbs up/down) for answers
+Creating commit 96/99: Extract entities and relationships from text chunks
+Creating commit 97/99: Implement routing setup using React Router
+Creating commit 98/99: Implement ingestion status tracking and UI progress bar
+Creating commit 99/99: Implement message history and session management
+Adding all files...
+Creating final commit: Finalize codebase for Information Relation Indexing release
+Successfully generated 100 commits.

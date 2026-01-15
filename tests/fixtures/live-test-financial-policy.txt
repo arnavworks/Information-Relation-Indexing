@@ -1,0 +1,5 @@
+Annual Service Policy
+
+The enterprise support subscription costs USD 125000 per year and renews on 2027-01-01.
+
+Critical incident evidence must be retained for seven years. The support team must acknowledge priority-one incidents within 15 minutes.
