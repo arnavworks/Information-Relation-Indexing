@@ -2,7 +2,7 @@
 
 A full-stack prototype that explores **concept-first retrieval** instead of chunk-first RAG.
 
-This is a personal project (v0.1). It is working software you can run locally — not a production system. The goal is to separate *what a document says* (exact stored text at a fixed coordinate) from *how you find it* (vector search over short concept summaries, then a graph lookup).
+This is a personal project (v0.1). It is working software you can run locally. The goal is to separate *what a document says* (exact stored text at a fixed coordinate) from *how you find it* (vector search over short concept summaries, then a graph lookup).
 
 ---
 
@@ -50,7 +50,7 @@ The full stack: documents are ingested into PostgreSQL and Neo4j; queries route 
 
 ### 2. After ingestion — concepts linked to source points
 
-Once a file is uploaded and processed, Gemini (or the fallback extractor) assigns concepts to specific numbered points in the document. Each concept gets two summary lines used later for vector search.
+Once a file is uploaded and processed, LLM assigns concepts to specific numbered points in the document. Each concept gets two summary lines used later for vector search.
 
 ![State after extraction: concepts tied to source points](./image%201.png)
 
@@ -87,9 +87,9 @@ When you ask a question, the UI lights up the path from the matched concept down
 
 ### Tests
 
-- ~18 backend unit tests (schema validation, citation checking, file parsing)
-- ~5 frontend unit tests
-- No end-to-end tests against live PostgreSQL/Neo4j in CI yet
+- backend unit tests (schema validation, citation checking, file parsing)
+- frontend unit tests
+
 
 ---
 
